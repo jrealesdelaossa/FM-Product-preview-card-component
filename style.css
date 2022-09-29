@@ -1,0 +1,115 @@
+:root {
+  --primary-cream: hsl(30, 38%, 92%);
+  --White: hsl(0, 0%, 100%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-cyan: hsl(158, 36%, 37%);
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  background-color: var(--primary-cream);
+  display: grid;
+  place-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.product-card {
+  width: 600px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--White);
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.product-card figure {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Arreglar el borde de la imagen */
+.product-card figure img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.contenido-info {
+  margin: 28px;
+}
+
+.p1 {
+  color: var(--Dark-grayish-blue);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 0 0 12px 0;
+}
+
+.title {
+  font-family: 'Fraunces', serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--Very-dark-blue);
+  margin: 0 0 20px 0;
+}
+
+.text {
+  color: var(--Dark-grayish-blue);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 24px 0;
+}
+
+.prices {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 24px 0;
+  justify-content: space-around;
+}
+
+.prices p:nth-child(1) {
+  font-family: 'Fraunces', serif;
+  color: var(--Dark-cyan);
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.prices p:nth-child(2) {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: var(--Dark-grayish-blue);
+  text-decoration: line-through;
+}
+
+.button-add {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Dark-cyan);
+  border: none;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: var(--White);
+  margin: 0;
+}
+
+.button-add figure {
+  width: auto;
+  height: auto;
+  margin-right: 12px;
+}
