@@ -27,14 +27,14 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-.product-card figure {
+/* arreglar las imagenes */
+.product-card picture {
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
-/* Arreglar el borde de la imagen */
-.product-card figure img {
+.product-card picture img {
   width: 100%;
   object-fit: cover;
   border-radius: 12px 0 0 12px;
@@ -134,7 +134,7 @@ body {
     display: none;
   }
 
-  .product-card figure img {
+  .product-card picture img {
     border-radius: 12px 12px 0 0;
   }
 }
