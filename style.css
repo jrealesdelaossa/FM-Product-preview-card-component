@@ -44,7 +44,7 @@ body {
   margin: 28px;
 }
 
-.p1 {
+.contenido-info span {
   color: var(--Dark-grayish-blue);
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -54,7 +54,7 @@ body {
   margin: 0 0 12px 0;
 }
 
-.title {
+.contenido-info h1 {
   font-family: 'Fraunces', serif;
   font-size: 36px;
   font-weight: 700;
